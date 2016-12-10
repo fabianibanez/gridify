@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 150%;
+}
+
+content {
+	max-width: 70rem;
+	margin: 0 auto;
+	display: block;
+}
+
+content::before, content::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.c12 {
+	width: 100%;
+	padding: 1%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.c9 {
+	width: 75%;
+	padding: 1%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.c6 {
+	width: 50%;
+	padding: 1%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.c4 {
+	width: 33.333334%;
+	padding: 1%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.c3 {
+	width: 25%;
+	padding: 1%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.medium {
+	float: none;
+	margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1024px) {
+	
+	.t12 {
+		width: 100%;
+		padding: 1%;
+		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.t9 {
+		width: 75%;
+		padding: 1%;
+		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.t6 {
+		width: 50%;
+		padding: 1%;
+		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.t4 {
+		width: 33.333334%;
+		padding: 1%;
+		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.t3 {
+		width: 25%;
+		padding: 1%;
+		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	.m12 {
+		width: 100%;
+		padding: 1%;
+		float: left;
+	}
+
+	.m9 {
+		width: 75%;
+		padding: 1%;
+		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.m6 {
+		width: 50%;
+		padding: 1%;
+		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.m4 {
+		width: 33.333334%;
+		padding: 1%;
+		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.m3 {
+		width: 25%;
+		padding: 1%;
+		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
